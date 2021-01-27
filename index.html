@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotell</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="container1">
+            <div class="logo">hotell</div>
+            <div id="menu">
+                <ul class="nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">destinations</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+
+            </div>
+            <span class="menu-btn" onclick="toggle()">
+                <img src="images/menu.svg">
+            </span>
+
+        </div>
+        <h1 id="title">
+            once a year go someplace you've<br>never been before.
+        </h1>
+        <button class="video-btn" onclick="play()">
+            play video
+        </button>
+        <div class="container2">
+            <input type="date" name="date" id="date1">
+            <input type="date" name="date" id="date2">
+            <select name="Person" id="person">
+                <option value="1">No of Person 1</option>
+                <option value="2">No of Person 2</option>
+                <option value="3">No of Person 3</option>
+                <option value="4">No of Person 4</option>
+                <option value="5+">No of Person 5+</option>
+            </select>
+           <input type="button" value="find here" id="find-btn">
+        </div>
+        
+    </div>
+</div>
+   <div class="video-container" id="video-container">
+    <div class="video"><iframe class="responsive-iframe"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+    </div>
+   </div>
+    
+
+
+    <div class="container3">
+        <h2>our services</h2>
+        <div id="services">
+            <div class="service">
+                <img src="images/suitcases.svg" alt="">
+                <h3>iland hoping 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab possimus eveniet!</p>
+
+            </div>
+            <div class="service">
+                <img src="images/island.svg" alt="">
+                <h3>iland hoping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab possimus eveniet!</p>
+            </div>
+            <div class="service">
+                <img src="images/world.svg" alt="">
+                <h3>iland hoping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab possimus eveniet!</p>
+            </div>
+            <div class="service">
+                <img src="images/plane.svg" alt="">
+                <h3>iland hoping 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab possimus eveniet!</p>
+            </div>
+
+
+        </div>
+        <div class="controls">
+            <button id="prev" class="btn" onclick="prev()">prev</button>
+            <button id="next" class="btn" onclick="next()">next</button>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="about">
+            <div id="about-color">
+
+            </div>
+
+            <div id="about-text">
+                <h3>about hotell</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eos a sequi sit porro tenetur autem
+                quisquam vel vitae, ut, harum incidunt laboriosam laudantium, nihil veniam eaque quasi quibusdam
+                corrupti?
+                <!DOCTYPE html>
+
+            </div>
+            <div id="about-img">
+                <img src="images/bg-img.jpg" alt="" style="width: 25%;">
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="blog-bg1"></div>
+        <h2 class=blog-title>blog post</h2>
+        <div id="blog-container">
+            <div id="blog-post">
+                <div class="post">
+                    <img src="images/blog-img1.jpg" alt="">
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    
+                </div>
+                <div class="post">
+                    <img src="images/blog-img2.jpg" alt="">
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+                <div class="post">
+                    <img src="images/blog-img3.jpg" alt="">
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="post">
+                    <img src="images/blog-img4.jpg" alt="">
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="controls">
+            <button id="prev" class="btn" onclick="prev1()">prev</button>
+            <button id="next" class="btn" onclick="next1()">next</button>
+        </div>
+        
+    </div>
+    <div class="container6">
+        <div class="faq-text">frequently asked<br>questions</div>
+        <div class="faq-ques">
+            <div class="ques" onclick="ans1()">is it free?</div>
+            <div class="answer" id="ans1">lorem ajhfgajhgajajhgajghgah</div>
+            <div class="ques" onclick="ans2()">is it free?</div>
+            <div class="answer" id="ans2">lorem ajhfgajhgajajhgajghgah</div>
+            <div class="ques" onclick="ans3()">is it free?</div>
+            <div class="answer" id="ans3">lorem ajhfgajhgajajhgajghgah</div>
+        </div>
+    </div>
+    <div class="container7">
+        <div class="insta-text">
+            <h3 class="insta-title">instagram</h3>
+            <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Explicabo vitae cum odit quod, eum laboriosam iure illum eveniet </p>
+        </div>
+        <div class="insta-img">
+            <img src="images/img1.jpg" alt="">
+            <img src="images/img21.jpg" alt="">
+            <img src="images/img3.jpg" alt="">
+            <img src="images/img4.jpg" alt="">
+            <img src="images/img1.jpg" alt="">
+            <img src="images/img21.jpg" alt="">
+            <img src="images/img3.jpg" alt="">
+            <img src="images/img4.jpg" alt="">
+        </div>
+    </div>
+
+
+    <div class="footer-bg">
+        <div class="container8">
+            <div class="footer">
+                <div class="footer1">
+                    <ul>
+                        <li>home</li>
+                        <li class="footer-hover">about us</li>
+                        <li class="footer-hover">places</li>
+                        <li class="footer-hover">destinations</li>
+                        <li class="footer-hover">terms</li>
+                        <li class="footer-hover">privacy</li>
+                    </ul>
+                    <ul>
+                        <li>practice area</li>
+                        <li class="footer-hover">travel</li>
+                        <li class="footer-hover">popular places</li>
+                        <li class="footer-hover">destinations</li>
+                        <li class="footer-hover">tour</li>
+                        <li class="footer-hover">family vacations</li>
+                    </ul>
+                    <ul>
+                        <li>services</li>
+                        <li class="footer-hover">tour</li>
+                        <li class="footer-hover">swimming</li>
+                        <li class="footer-hover">kayak</li>
+                        <li class="footer-hover">surfing</li>
+                        <li class="footer-hover">paragliding</li>
+                    </ul>
+                    <ul>
+                        <li>contact</li>
+                        <li class="footer-hover">43 raymond inc.</li>
+                        <li class="footer-hover">+(123)678</li>
+                        <li class="footer-hover">+(123)678</li>
+                        <li class="footer-hover">xyz@gmail.com</li>
+                        <li>
+                            <img src="images/instagram.svg" alt="" class="social-icon">
+                            <img src="images/facebook.svg" alt="" class="social-icon">
+                            <img src="images/whatsapp.svg" alt="" class="social-icon">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
